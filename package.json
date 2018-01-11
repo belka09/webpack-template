@@ -1,0 +1,32 @@
+{
+    "name": "webpack-template",
+    "version": "1.0.0",
+    "description": "Blank HTML5 template for experiments",
+    "main": "",
+    "scripts": {
+        "build": "webpack -p",
+        "watch": "webpack --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "browser-sync": "^2.22.0",
+        "jshint": "^2.9.5",
+        "jshint-loader": "^0.8.4",
+        "webpack": "^3.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/belka09/webpack-template.git"
+    },
+    "dependencies": {
+        "autoprefixer": "^7.2.4",
+        "css-loader": "^0.28.8",
+        "postcss-loader": "^2.0.10",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.1"
+    }
+}
