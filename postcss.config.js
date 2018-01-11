@@ -8,6 +8,8 @@ module.exports = {
                 'flexbox',
                 'border-radius'
             ]
-        }
+        },
+        "rucksack-css": {},
+        "cssnano":{}
     }
-}
+};

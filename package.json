@@ -4,7 +4,7 @@
     "description": "Blank HTML5 template for experiments",
     "main": "",
     "scripts": {
-        "build": "webpack -p",
+        "build": "webpack",
         "watch": "webpack --watch",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -25,8 +25,12 @@
     "dependencies": {
         "autoprefixer": "^7.2.4",
         "css-loader": "^0.28.8",
+        "cssnano": "^3.10.0",
+        "doiuse": "^4.0.0",
+        "postcss-cssnext": "^3.0.2",
         "postcss-loader": "^2.0.10",
-        "sass-loader": "^6.0.6",
+        "precss": "^2.0.0",
+        "rucksack-css": "^1.0.2",
         "style-loader": "^0.19.1"
     }
 }
